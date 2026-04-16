@@ -1,0 +1,11 @@
+git clone https://github.com/EgemberdievArzymat/vending_machine.git
+git commit -m "Created an interface for accepting payments "PaymentAcceptor""
+git commit -m "Changed CoinAcceptor to implement the interface"
+git commit -m "Created a new class "CardAcceptor" for a new payment method"
+git commit -m "Rewrote AppRunner to make PaymentAcceptor work."
+git push origin home_work_25
+git checkout master
+git merge home_work_25
+git push origin master
+git commit -m "Added a text file listing commands"
+git push origin master
